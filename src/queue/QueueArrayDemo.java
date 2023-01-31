@@ -1,5 +1,7 @@
 package queue;
 
+import java.util.Queue;
+
 public class QueueArrayDemo {
 
     public static void main(String[] args) {
