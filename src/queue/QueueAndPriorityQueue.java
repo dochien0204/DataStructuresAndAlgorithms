@@ -19,6 +19,13 @@ public class QueueAndPriorityQueue {
         pq.add(11);
         pq.add(13);
         pq.add(12);
-        System.out.println(pq.poll());;
+        System.out.println(pq.poll());
+
+        PriorityQueue<Student> studentsPQ = new PriorityQueue<>();
+        studentsPQ.add(new Student("Chien", 20));
+        studentsPQ.add(new Student("Chin", 25));
+        studentsPQ.add(new Student("Chen", 10));
+        studentsPQ.add(new Student("Chn", 30));
+        System.out.println(studentsPQ.poll().name);
     }
 }
